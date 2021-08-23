@@ -16,5 +16,18 @@ public class loops {
                 break;
         }
         System.out.println(num);
+        System.out.println(reverseee(12345));
+    }
+
+    public static int reverseee(int num)
+    {
+        String number="";
+        while (num > 0)
+        {
+            int num1 = num%10;
+            number=number+num1;
+            num=num/10;
+        }
+        return Integer.parseInt(number);
     }
 }
