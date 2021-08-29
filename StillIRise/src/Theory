@@ -7,3 +7,69 @@ a. Modifiers and Return type can be anything
 A StackOverflowError is a runtime error in java. It is thrown when the amount of call stack
 memory allocated by JVM is exceeded. A common case of a StackOverflowError being thrown, is
 when call stack exceeds due to excessive deep or infinite recursion
+
+4. "this" is a key word which holds the address of object currently i use
+
+5. what is OOP?
+OOP is a praradigm which helps a programmer to co-releate a real world scenario into to programming Scenario
+in the form of object
+
+6. What is Object?
+A block of memory create in a heap during the runtime which represent a real world object is known as an Object
+* State of the real world object is stored with the help of variables
+* Behaviour of a real world object is stored with the help of methods
+
+7. WHat is Class?
+Class is a user defined non-Premitive data type which represents blue print of a real world object.
+it help a programmer to create any number of object
+
+8. * Encapsulation * Inheritance * Polymorphizm * Abstraction
+
+9. Encapsulation:-
+The process of binding the states and behaviour of an object togeather ..
+we can achive with the help of Class
+Where state is stored as Variable and Behaviour with the Help of methods
+
+The advantage fo Encapsulation is Data Hiding
+Data Hiding:-
+The process of restricting direct access to the state of an object and give control access to the
+state of the object with the help of behaviour of the same object.
+Prefix with Private and create GETTER and SETTER
+
+Advantages :-
+* Control Access
+* Achive Design Flexibility
+  a. Only Readable
+  b. Only modifiable
+  c. Both or neither
+
+10. Relationship:-
+The Association between 2 or more objects is known as relationship
+Has-a Relationship
+is-a Relationship
+
+11. Has-a Relationship:-
+The association between 2 objects such that one object is a member part of another object
+We can achive this with the hlep of Composition
+Composition:-
+One object having the reference of another object
+tip : Create a reference of one class as a member of another class
+
+2 Types:-
+a. Early Instantiation
+b. Lazy Instantiation
+
+12. Is-a relationship:-
+The association between 2 objects which is similer to parent and child relationship is known as Is-A releationship.
+Child object will aquire all the states and behaviour of the parent object.
+
+We can achive this using Inheritance . using extends and impliments keyword.
+
+13. Types of Inheritances
+   a. Single level Inheritance
+   b. Multilevel Inheritance
+   c. Multiple Inheritance
+   d. Hybrid Inheritance
+
+14.  Single level Inheritance : Inheritance of only one level
+     Multilevel Inheritance
